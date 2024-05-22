@@ -1,0 +1,16 @@
+
+
+java:S1192$"LDefine a constant instead of duplicating this literal "warehouseId" 3 times.(«—¨A8‹†€Şë1J$f22807eb-26b9-445f-9860-a9853e28c0bd
+
+java:S1192$"KDefine a constant instead of duplicating this literal "WareHouses" 3 times.(«—¨A8‹†€Şë1J$5cab5389-9aa1-4909-bb22-0d7a40ae3577
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8œ†€Şë1J$2ec70bbb-dc2b-46bc-9700-664ba60e1257
+}
+java:S1128"5Remove this unused import 'jakarta.validation.Valid'.(ÀãÅ”ûÿÿÿÿ8Á¶Øì1J$50b18add-8559-4996-add8-7c01431a8e05
+ˆ
+java:S1128	"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8Á¶Øì1J$69c29c77-020d-4011-92e4-33af445e65e1
+Œ
+java:S1128
+"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8Á¶Øì1J$79b783b3-3219-4b47-905a-b0dbc8b46343
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Á¶Øì1J$3edec05b-2d51-4a00-80af-d0d9f8f50331

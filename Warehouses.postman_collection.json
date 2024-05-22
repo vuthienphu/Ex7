@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "14567cfe-45a6-4004-9174-c4458072cb56",
+		"name": "Warehouses",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29127357",
+		"_collection_link": "https://www.postman.com/planetary-sunset-333427/workspace/ex7-restfulapi/collection/29127357-14567cfe-45a6-4004-9174-c4458072cb56?action=share&source=collection_link&creator=29127357"
+	},
+	"item": [
+		{
+			"name": "Get List Warehouses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/warehouses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"warehouses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Warehouses By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/warehouses/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"warehouses",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Warehouse",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"warehouseCode\": \"WH200\",\r\n    \"name\": \"RestAPI add test\",\r\n    \"location\": \"VietNam\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/warehouses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"warehouses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Warehouse",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"warehouseCode\": \"WH300\",\r\n    \"name\": \"Test Update API\",\r\n    \"location\": \"HaNOi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/warehouses/102",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"warehouses",
+						"102"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Warehouse",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/warehouses/102",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"warehouses",
+						"102"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

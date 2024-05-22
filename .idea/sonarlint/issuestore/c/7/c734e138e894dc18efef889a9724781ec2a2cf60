@@ -1,0 +1,19 @@
+
+Œ
+java:S1192,"IDefine a constant instead of duplicating this literal "Category" 3 times.(¶ŞÁÊ8·›ì1J$6bf00753-1aca-4a03-9a6a-cacc47ce2a24
+
+java:S1192,"KDefine a constant instead of duplicating this literal "categoryId" 3 times.(¶ŞÁÊ8·›ì1J$69e93b5e-555c-43e0-b1fd-e68d3a3e0911
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8™·›ì1J$c4eb2786-ef7f-48db-923c-72daafdee40b
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8™·›ì1J$e014ba7d-6232-4753-98eb-b39c6a5066ec
+‚
+java:S1128":Remove this unused import 'com.sapo.edu.model.Warehouses'.(—¹…øÿÿÿÿ8İ¹Øì1J$18f84803-0524-4b0f-b73b-c6ce34dbebc3
+}
+java:S1128	"5Remove this unused import 'jakarta.validation.Valid'.(ÀãÅ”ûÿÿÿÿ8İ¹Øì1J$e988ffa2-a494-4e6b-af1a-b76a77b60c09
+ˆ
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8İ¹Øì1J$5191bf8c-23b0-4b3e-aba7-c5f19ffe9871
+Œ
+java:S1128"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8İ¹Øì1J$7ea56695-6143-4c13-abfe-f3b8356e9b3c
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ş¹Øì1J$49f16e3a-10ad-49f7-80e1-29ea7cb3f29d

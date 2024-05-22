@@ -1,0 +1,236 @@
+{
+	"info": {
+		"_postman_id": "efac9e7e-8c73-47a4-bb1e-739b05407789",
+		"name": "Products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29127357",
+		"_collection_link": "https://www.postman.com/planetary-sunset-333427/workspace/ex7-restfulapi/collection/29127357-efac9e7e-8c73-47a4-bb1e-739b05407789?action=share&source=collection_link&creator=29127357"
+	},
+	"item": [
+		{
+			"name": "Get List Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/products/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/products/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"productCode\": \"P500\",\r\n       \"categoryId\": 1,\r\n       \"warehouseId\": 1,\r\n        \"price\": 25,\r\n        \"name\": \"test\",\r\n        \"productDescription\": \"test\",\r\n        \"imageUrl\": \"image_url_test.jpg\",\r\n        \"quantityInStock\": 100,\r\n        \"quantitySold\": 50,\r\n        \"createdAt\": \"2022-12-25T17:00:00.000+00:00\",\r\n        \"updatedAt\": \"2022-09-08T17:00:00.000+00:00\"\r\n    }\r\n    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"productCode\": \"P400\",\r\n       \"categoryId\": 1,\r\n       \"warehouseId\": 1,\r\n        \"price\": 25,\r\n        \"name\": \"test update product\",\r\n        \"productDescription\": \"test product\",\r\n        \"imageUrl\": \"image_url_test_product.jpg\",\r\n        \"quantityInStock\": 100,\r\n        \"quantitySold\": 50,\r\n        \"createdAt\": \"2022-12-25T17:00:00.000+00:00\",\r\n        \"updatedAt\": \"2022-09-08T17:00:00.000+00:00\"\r\n    }\r\n    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/products/52",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products",
+						"52"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/products/52",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products",
+						"52"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Filter Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/products/filter?keyword=A&categoryCode=Apple",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "A"
+						},
+						{
+							"key": "categoryCode",
+							"value": "Apple"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Top 10 Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/products/top-best-selling",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products",
+						"top-best-selling"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Count Product By Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/products/product-count",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products",
+						"product-count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product By Name(Pagination)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/products?name=Apple&currentPage=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Apple"
+						},
+						{
+							"key": "currentPage",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

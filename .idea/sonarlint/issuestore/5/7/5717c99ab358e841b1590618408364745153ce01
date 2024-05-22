@@ -1,0 +1,21 @@
+
+œ
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(ªÉş8±²Ö›ì1J$b2a6fd10-3ef8-43d3-a926-cefebb436bdb
+œ
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ö•Õõ8²²Ö›ì1J$b8619923-8a0f-4f0a-aa79-9d09abf4823c
+œ
+java:S2293,"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÊÅ¿Ö8²²Ö›ì1J$263b6003-eeba-45fb-b140-e65d45ae6fb3
+¡
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇÎŸûÿÿÿÿ8²²Ö›ì1J$52a0e417-1797-44f6-99bf-d0ef0016b9c3
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¼²Ö›ì1J$82d1da3e-d615-46b9-9823-ebb30fa42019
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¼²Ö›ì1J$aeeb9170-bba8-4e5f-ad47-cb09908266e3
+‚
+java:S1128":Remove this unused import 'com.sapo.edu.model.Warehouses'.(—¹…øÿÿÿÿ8Ç²Ö›ì1J$c8231994-7146-4085-8ab0-c009402f8c35
+™
+java:S1128"QRemove this unused import 'com.sapo.edu.service.implement.CategoriesServiceImpl'.(‡´ Êùÿÿÿÿ8Ç²Ö›ì1J$3a40cbdc-b32d-414c-b68c-62a010a0cf5b
+’
+java:S1128"ORemove this unused import 'com.sapo.edu.service.implement.ProductsServiceImpl'.(é§ï¸8Ç²Ö›ì1J$6d23743a-6d4f-4a22-8227-20f6d54b05c1
+}
+java:S1128	"5Remove this unused import 'jakarta.validation.Valid'.(ÀãÅ”ûÿÿÿÿ8Ç²Ö›ì1J$09fcbaaa-fa65-401e-9efb-33137c38e87e

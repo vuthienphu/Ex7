@@ -1,0 +1,20 @@
+
+’
+java:S1192&"JDefine a constant instead of duplicating this literal "productId" 3 times.(à½ãøÿÿÿÿ8òµ˜ì1J$233c056c-59fd-4f40-9b7d-af350c2d7784
+
+java:S1192&"HDefine a constant instead of duplicating this literal "Product" 3 times.(à½ãøÿÿÿÿ8óµ˜ì1J$a4aeb675-dfb7-4ecc-84f0-13537b5c37c3
+«
+java:S1488R"hImmediately return this expression instead of assigning it to the temporary variable "filteredProducts".(Ş·”œ8õµ˜ì1J$6781c0a5-c7af-4227-bad4-668db5bc609a
+«
+java:S1488Z"cImmediately return this expression instead of assigning it to the temporary variable "topProducts".(œóƒøÿÿÿÿ8õµ˜ì1J$54f24756-bb7e-4687-a942-7d236eb7b0a7
+¡
+java:S1488b"^Immediately return this expression instead of assigning it to the temporary variable "counts".(ÊŒ‹8õµ˜ì1J$193f435f-229b-41e7-84e5-1f8e78b7b1a1
+§
+java:S1488i"dImmediately return this expression instead of assigning it to the temporary variable "productsList".(…—Üß8õµ˜ì1J$b2bfce78-8cf4-4982-aaa5-06d13c43851d
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¶˜ì1J$a232d302-d615-4f55-ba49-650eeee1a2b2
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¶˜ì1J$8192f344-42f4-469c-963c-42d44db18916
+Œ
+java:S1128
+"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8ØµØì1J$a3bf44ea-f819-4d0d-b4b3-23ae55a5dc66

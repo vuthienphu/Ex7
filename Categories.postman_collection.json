@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "33df0cc7-1bf4-4ced-b459-6baba6b9e5d1",
+		"name": "Categories",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29127357",
+		"_collection_link": "https://www.postman.com/planetary-sunset-333427/workspace/ex7-restfulapi/collection/29127357-33df0cc7-1bf4-4ced-b459-6baba6b9e5d1?action=share&source=collection_link&creator=29127357"
+	},
+	"item": [
+		{
+			"name": "Get List Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Category By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/categories/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Category",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \r\n        \"categoryCode\": \"CT500\",\r\n        \"name\": \"Category Type 500\",\r\n        \"description\": \"test create Category\",\r\n        \"createdAt\": \"2023-01-19T17:00:00.000+00:00\",\r\n        \"updatedAt\": \"2024-01-19T17:00:00.000+00:00\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Category",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryCode\": \"CT400\",\r\n    \"name\": \"Category Type 400\",\r\n    \"description\": \"test create Category\",\r\n    \"createdAt\": \"2024-04-10T09:00:37.589+00:00\",\r\n    \"updatedAt\": \"2024-01-19T17:00:00.000+00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/categories/52",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories",
+						"52"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Category",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/categories/53",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories",
+						"53"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

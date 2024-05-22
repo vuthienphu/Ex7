@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9f6f453-1f15-4374-97da-b29a82efd509" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../PHU/spring-dependency-injection" beforeDir="false" afterPath="$PROJECT_DIR$/../PHU/spring-dependency-injection" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHU/spring-dependency-injection/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-hello-world" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-hello-world" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-hello-world/.idea/sonarlint/issuestore/0/b/0b80f89afda6e051b1bd40e24e94fbb434e7ae02" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-hello-world/.idea/sonarlint/issuestore/0/b/0b80f89afda6e051b1bd40e24e94fbb434e7ae02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-hello-world/.idea/sonarlint/issuestore/c/c/cc565cad8de92f38500defc55af30dfc5b385e63" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-hello-world/.idea/sonarlint/issuestore/c/c/cc565cad8de92f38500defc55af30dfc5b385e63" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-hello-world/src/main/java/com/sapo/edu/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-hello-world/src/main/java/com/sapo/edu/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-hello-world/src/main/java/com/sapo/edu/demo/untils/ArrayHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-hello-world/src/main/java/com/sapo/edu/demo/untils/ArrayHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-hello-world/target/classes/com/sapo/edu/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-hello-world/target/classes/com/sapo/edu/demo/DemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-hello-world/target/classes/com/sapo/edu/demo/untils/ArrayHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-hello-world/target/classes/com/sapo/edu/demo/untils/ArrayHandler.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2elYVfSa8nB28MEtUp85LQrIZDI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Ex7Application.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/ex9",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "c1c91ff91315a7045891dba535fb8b0f",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Ex7Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ex7" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sapo.edu.Ex7Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9f6f453-1f15-4374-97da-b29a82efd509" name="Changes" comment="" />
+      <created>1712480656644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712480656644</updated>
+      <workItem from="1712480657873" duration="453000" />
+      <workItem from="1712481198076" duration="752000" />
+      <workItem from="1712483131580" duration="248000" />
+      <workItem from="1712483612898" duration="8721000" />
+      <workItem from="1712541393427" duration="40000" />
+      <workItem from="1712541473437" duration="31000" />
+      <workItem from="1712541566094" duration="121000" />
+      <workItem from="1712543448402" duration="3965000" />
+      <workItem from="1712590895080" duration="131000" />
+      <workItem from="1712667310624" duration="10366000" />
+      <workItem from="1712677922085" duration="2507000" />
+      <workItem from="1712680458176" duration="34000" />
+      <workItem from="1712681205614" duration="1712000" />
+      <workItem from="1712737939192" duration="4440000" />
+      <workItem from="1712744029899" duration="35000" />
+      <workItem from="1713149255118" duration="336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
